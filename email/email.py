@@ -1,3 +1,4 @@
 class Email:
-    def Send(self):
+    @staticmethod
+    def send():
         print("Email has been sent!")
