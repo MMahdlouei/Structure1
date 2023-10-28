@@ -1,6 +1,7 @@
 from prime.helper import *
 import prime.constans as c
 
+
 class Prime:
     def __init__(self, start, finish):
         self.start = start
@@ -13,7 +14,7 @@ class Prime:
                 primes.append(n)
         return primes
 
-    def Prettify(self):
+    def prettify(self):
         body = ''
         for results in self.calculate_primes():
             body += f"This is a prime number: {results} \n"
